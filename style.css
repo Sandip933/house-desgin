@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+.panel {
+    margin: 16px 0px;
+    padding: 0.15px 16px;
+}
+
+.xlarge {
+    font-size: 24px !important;
+}
+
+h1 {
+    margin: 10px 0px;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.row {
+    display: block;
+    overflow: auto;
+}
+
+.container {
+    padding: 0.15px 16px;
+}
+
+.half {
+    float: left;
+    width: 50%;
+    /* position: relative; */
+}
+
+.xxlarge {
+    font-size: 36px;
+}
+
+.text-grey {
+    color: grey;
+}
+
+.text-light-grey {
+    color: lightgray;
+}
+
+.jumbo {
+    font-size: 64px;
+}
+
+.xlarge {
+    font-size: 24px;
+}
+
+p {
+    margin: 24px 0px;
+}
+
+.section {
+    display: flex;
+    /* margin: 0.15px 16px; */
+}
+
+.third {
+    float: left;
+    width: 33.33%;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.black {
+    background-color: black;
+}
+
+.grey {
+    background-color: gray;
+}
+
+.light-grey {
+    background-color: lightgray;
+}
+
+
+.container:after,
+.container:before,
+.panel:after,
+.panel:before,
+.row:after,
+.row:before,
+.row-padding:after,
+.row-padding:before,
+.cell-row:before,
+.cell-row:after,
+.clear:after,
+.clear:before,
+.bar:before,
+.bar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
